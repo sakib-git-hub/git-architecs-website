@@ -20,7 +20,7 @@ header{
     background-color: rgba(255, 144, 14, 0.1);
     
 }
-main{
+section{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -113,6 +113,118 @@ margin-right: 2rem;
 }
 
 
+/* features-section */
+
+
+.feature-text{
+    max-width: 586px;
+    padding-bottom: 30px;
+}
+.feature-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.feature-text h1{
+    border-left:5px solid #FF900E;
+    padding-left: 8px;
+    margin-bottom: 30px;
+}
+.feature-text h3{
+    margin-bottom: 30px;
+}
+.feature-text p{
+    margin-bottom: 30px;
+}
+.features-parent{
+align-items: center;
+max-height: 1060px;
+max-width: 1440px;
+margin: 0 auto;
+justify-content: center;
+gap: 150px;
+  padding-top:3rem ;
+  
+}
+.card{
+border-radius: 8px;
+box-shadow: 0px 1px 2px 4px #fbf9f9;
+padding: 20px;
+margin: 5px;
+
+}
+#year{
+    font-size:2.8rem;
+    font-weight: 700;
+    
+}
+#experience{
+    font-size:1rem;
+    font-weight: 500;
+}
+
+.features-parent button{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: -100px;
+    padding: 15px 15px;
+}
+
+/* some-facts-section */
+
+.facts-title{
+    max-width: 545px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
+.facts-card-parent{
+display: flex;
+justify-content: space-around;
+
+}
+.facts-card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 40px;
+    justify-items: center;
+    text-align: center;
+    height: 241px;
+    width: 241px;
+}
+
+/* sponsor-sector */
+.sponsor-discription{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sponsor-discription h1{
+      margin-bottom: 20px;
+}
+
+.sponsor-discription p{
+    margin-bottom: 20px;
+}
+
+.sponsor-card-parent{
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* footer-start-here */
+.footer-parent{
+    display: flex;
+    height: 100px;
+    width: 1440px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* small-device */
 @media screen and (max-width: 576px) {
@@ -131,4 +243,29 @@ margin-right: 2rem;
       text-align: center;
     }
 
+}
+
+/* medium-device */
+@media screen and (min-width: 576px) and (max-width:992px){
+  .display-flex{
+        display: flex;
+    }
+    
+   .teams{
+    flex-direction: column;
+   }
+    .team-title,
+    .team-img
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+     .team-title{
+        padding-top: 3rem;
+     }
 }
