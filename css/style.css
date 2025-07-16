@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* google-fonts */
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* same-styles */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+
+/* font-styles */
+/* dark-01 */
+.primary-font{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #131313;
+}
+/* dark-02 */
+.secoundary-font{
+    color: #424242;
+    font-size: 1rem;
+}
+/* dark-03 */
+.third-class-font{
+    color: #727272;
+}
+
+/* primary-button */
+.prymary-btn{
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffff;
+    border: none;
+    height: 64px;
+    width: 180px;
+    cursor: pointer;
+}
+
+/* nav-styles */
+nav{
+    justify-content: space-between;
+    align-items: center;
+     max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.navigation li{
+list-style: none;
+margin-right: 2rem;
+}
+.navigation a{
+    text-decoration: none;
+}
+
+
+/* banner-style */
+.banner-title{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.banner-title h1{
+ padding-bottom: 1rem;
+}
+.banner-title p{
+  padding-bottom: 1rem;  
+
+}
+#banner-img{
+    max-width: 100%;
+    padding-bottom: 2.8rem;
+}
+
+/* team-section */
+.teams{
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem ;
+    
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    gap: 2rem;
+    border-radius: 8px;
+   
+}
+.team-title{
+   flex-direction: column; 
+  gap: 1rem;  
+}
+
+
+
+/* small-device */
+@media screen and (max-width: 576px) {
+    
+    .display-flex{
+        flex-direction: column;
+    }
+ 
+   .team-title,
+    .team-img
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+      text-align: center;
+    }
+
+}
