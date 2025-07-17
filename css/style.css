@@ -216,7 +216,7 @@ align-items: center;
 .footer-parent{
     display: flex;
     height: 100px;
-    width: 1440px;
+    max-width: 1440px;
     background-color: #FFF4E7;
     border-radius: 8px;
     text-align: center;
@@ -333,6 +333,9 @@ nav h2{
         margin-bottom: 20px;
     }
 
+    .feature-img img{
+        margin: 0 auto;
+    }
       .features-parent button{
       margin: 0 auto;
 
@@ -457,7 +460,7 @@ nav h2{
  
 
       .footer-parent{
-        max-width: 90%;
+        max-width: 50%;
         margin: 20px auto;
         
     }
