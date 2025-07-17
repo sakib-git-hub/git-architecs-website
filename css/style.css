@@ -301,13 +301,17 @@ nav h2{
     .team-img
     {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         justify-items: center;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         text-align: center;
         margin: 0;
         max-width: 90%;
+    }
+    .team-img img{
+        height: 50%;
+        width: 50%;
     }
     .feature-text{
         margin: 0 auto;
@@ -370,7 +374,7 @@ nav h2{
 }
 
 /* laptop-desktop */
-@media screen and (min-width: 993px) and (max-width:1200px){
+@media screen and (min-width: 993px) and (max-width:1250px){
     .display-flex{
     display: flex;
     flex-direction: row;
