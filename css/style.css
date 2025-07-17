@@ -370,7 +370,7 @@ nav h2{
 }
 
 /* laptop-desktop */
-@media screen and (min-width: 993px) and (max-width:1500px){
+@media screen and (min-width: 993px) and (max-width:1200px){
     .display-flex{
     display: flex;
     flex-direction: row;
@@ -446,7 +446,7 @@ nav h2{
     }
     .facts-card-parent{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
      .facts-title{
         text-align:center;
