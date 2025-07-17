@@ -345,11 +345,11 @@ nav h2{
       .sponsor-card-parent{
        display: flex;
     flex-wrap: wrap;
-       max-width: 90%;
+       max-width: 100%;
     }
   
     .some-facts{
-        max-width: 95%;
+        max-width: 100%;
         margin: 0 auto;
     }
     .facts-card-parent{
